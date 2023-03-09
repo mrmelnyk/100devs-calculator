@@ -1,24 +1,17 @@
 * {
     border-style: border-box;
     font-size: 62.5%;
-}
-
-div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
 }
 
-.firstRow {
-    width: 50%;
-    height: 10%;
+div .body{
+    background-color: black;
+    border-radius: 25px;
 }
-    
-.firstRow button {
-    align-items: top;
-    justify-content: space-between;
-    padding: 50px;
-    height: 10%;
-    width: 10%;
+button {
     border-radius: 50px;
-    margin: auto;
+    width: 25%;
+    background-color: white;
+    justify-content: center;
 }
-
