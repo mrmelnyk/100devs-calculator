@@ -5,13 +5,50 @@
     display: flex;
 }
 
-div .body{
+div.body {
     background-color: black;
     border-radius: 25px;
+    width: 450px;
+    height: 700px;
+    flex-wrap: wrap;
 }
+
+input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 50px;
+    margin: 50px;
+}
+
 button {
     border-radius: 50px;
     width: 25%;
+    height: 75%;
     background-color: white;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+div.firstRow {
+    width: 100%;
+    padding: 5px 50px;
+}
+
+div.secondRow {
+    width: 100%;
+    padding: 5px 50px;
+}
+
+div.thirdRow {
+    width: 100%;
+    padding: 5px 50px;
+}
+
+div.fourthRow {
+    width: 100%;
+    padding: 5px 50px;
 }
