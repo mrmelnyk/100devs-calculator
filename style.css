@@ -11,14 +11,22 @@ div.body {
     width: 450px;
     height: 700px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-input {
+.screen {
+    width: 60%;
+    height: 5%;
+    padding: 50px 50px 10px 50px;
+    background-color: white;
+    border-top: black solid 50px;
     display: flex;
     justify-content: center;
-    width: 100%;
-    padding: 10px 50px;
-    margin: 50px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 button {
