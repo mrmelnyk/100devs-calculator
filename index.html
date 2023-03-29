@@ -13,32 +13,40 @@
 <body>
     <div class="body">
         <div class="screen">
-            <h2 id="output"></h2>
+            <h4 data-previous-operand></h4>
+            <h2 data-current-operand>0</h2>
         </div>
         <div class="firstRow">
-            <button data-key="55" class="number" type ="button">7</button> 
-            <button data-key="56" class="number" type ="button">8</button> 
-            <button data-key="57" class="number" type ="button">9</button> 
-            <button type ="button">/</button> 
+            <button data-number type ="button">7</button> 
+            <button data-number type ="button">8</button> 
+            <button data-number type ="button">9</button> 
+            <button data-operator type ="button">/</button> 
         </div> 
         <div class="secondRow">   
-            <button data-key="52" class="number" type ="button">4</button> 
-            <button data-key="53" class="number" type ="button">5</button> 
-            <button data-key="54" class="number" type ="button">6</button> 
-            <button type ="button">x</button> 
+            <button data-number type ="button">4</button> 
+            <button data-number type ="button">5</button> 
+            <button data-number type ="button">6</button> 
+            <button data-operator type ="button">x</button> 
         </div>
         <div class="thirdRow">
-            <button data-key="49" class="number" type ="button">1</button> 
-            <button data-key="50" class="number" type ="button">2</button> 
-            <button data-key="51" class="number" type ="button">3</button> 
-            <button type ="button">+</button> 
+            <button data-number type ="button">1</button> 
+            <button data-number type ="button">2</button> 
+            <button data-number type ="button">3</button> 
+            <button data-operator type ="button">+</button> 
         </div>
         <div class="fourthRow">
-            <button data-key="48" class="number" type ="button">0</button> 
-            <button type ="button">.</button> 
-            <button type ="button">=</button> 
-            <button type ="button">-</button>
+            <button data-number type ="button">0</button> 
+            <button data-number type ="button">.</button> 
+            <button data-equals type ="button">=</button> 
+            <button data-operator type ="button">-</button>
         </div>
-    </div>    
+        <div class="clear">
+            <button data-all-clear id="all-clear" type="button">AC</button>
+            <button data-delete id="delete" type="button">DEL</button>
+        </div>
+    </div> 
+
+    <script src="main.js"></script>  
+    
 </body>
 </html>

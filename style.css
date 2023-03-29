@@ -17,12 +17,19 @@ div.body {
 .screen {
     width: 60%;
     height: 5%;
-    padding: 50px 50px 10px 50px;
+    padding: 50px;
     background-color: white;
     border-top: black solid 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: rgba(0,0,0, .75);
+
 }
 
 h2 {
@@ -59,4 +66,12 @@ div.thirdRow {
 div.fourthRow {
     width: 100%;
     padding: 5px 50px;
+}
+
+div.clear {
+    width: 100%;
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
