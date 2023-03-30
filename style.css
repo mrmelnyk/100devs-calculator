@@ -24,6 +24,7 @@ div.body {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
+    overflow: hidden;
 }
 
 h4 {
@@ -33,7 +34,8 @@ h4 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    padding-left: 50px;
 }
 
 button {
